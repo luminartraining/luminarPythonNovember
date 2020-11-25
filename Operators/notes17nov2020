@@ -1,0 +1,45 @@
+Operators
+=========
+to perform various operations
+input() always return string object
+
+
+1)Arithmeticoperators(+,-,*,/,%,**,//)
+
+num1=10
+num2=20
+res=num1+num2
+print(res)
+
+
+2)Relational operators(<,>,<=,>=,==,!=)
+
+
+for comapring values and it will return boolean value(True,False)
+
+
+
+
+
+3)logical Operators(&,|,^)
+
+
+num1=2
+num2=4
+print(num1&num2)
+
+
+
+
+
+4)compound assignment
+
+
+++,-- not supported in python
+
+num1=10
+num1+=1 #num1=num1+1
+
+
+
+flowcontrolls
