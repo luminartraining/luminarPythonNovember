@@ -9,14 +9,17 @@ print(lst)
 low=0
 upp=len(lst)-1
 flg=0
-while(low<upp):
-    mid=(low+upp)//2
+#       e
+#[1, 2, 3, 6, 7, 8, 10]
+#l       m           u
+while(low<=upp):#0<6
+    mid=(low+upp)//2#2
     #case1
-    if(element>lst[mid]):
+    if(element>lst[mid]): #3>3
         low=mid+1
-    elif(element<lst[mid]):
+    elif(element<lst[mid]):#3<3
         upp=mid-1
-    elif(element==lst[mid]):
+    elif(element==lst[mid]):#3==3
         flg=1
         break
 if(flg>0):
