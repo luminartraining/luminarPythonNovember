@@ -1,0 +1,13 @@
+
+
+
+#list    define        isitpossibletostoreduplicates? is it possle to update? is insertion preserved?
+           #[] list()           yes                         yes                         yes
+
+
+#tuple     ()                   yes                           immutable                               yes
+
+#set        set()              no                                yes                        no
+
+#dictionary  {}             duplicte k's NA                     yes                        yes
+                            duplcate v's Allowed

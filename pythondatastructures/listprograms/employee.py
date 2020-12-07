@@ -43,5 +43,5 @@ for emp in employees:
                 print(emp)
 
 
-pattern="ABABA"
+# pattern="ABABA"
 #find find first recursive character A
